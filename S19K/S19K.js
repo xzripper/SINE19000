@@ -1,7 +1,7 @@
 /**
  * https://github.com/xzripper/SINE19000/
  * SINE19000 - A tiny module to keep mobile screens awake without requiring HTTPS or SSL certificates, ideal for local development.
- * Keeps the screen awake by playing a hidden 10kB video with extremely low frequencies and resolution.
+ * Keeps the screen awake by playing a hidden ~10kB video with extremely low frequency and resolution.
  * @returns Nothing.
 */
 export function addS19K() {
