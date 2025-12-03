@@ -16,10 +16,22 @@ ffmpeg -f lavfi -i "nullsrc=s=10x10:r=10,geq=random(1)*255:random(1)*255:random(
 JavaScript usage:
 ```js
 // Import the main function.
-import { addS19K } from "https://xzripper.github.io/S19K.js";
+import { addS19K, setS19KActivity, removeS19K } from "https://xzripper.github.io/S19K.js";
 
-// Add S19K on the page
+// -----------------------------------------------------
+
+// Add S19K on the page (S19K is automatically enabled).
 addS19K();
+
+// -----------------------------------------------------
+
+// Enable/disable S19K.
+setS19KActivity(false);
+
+// -----------------------------------------------------
+
+// Remove S19K.
+removeS19K();
 ```
 
 That's it!
