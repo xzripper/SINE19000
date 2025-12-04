@@ -28,6 +28,8 @@ setS19KActivity(false);
 removeS19K();
 ```
 
+Also, injecting S19K requires a user gesture, consider wrapping injection into a `click` event or any other event.
+
 That's it!
 
 > [!WARNING]
